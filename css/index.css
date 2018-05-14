@@ -1,0 +1,468 @@
+/*----------------------top开始-----------------------------*/
+.top {
+	height: 90px;
+	width: 100%;
+	background: #000;
+	position: relative;
+}
+.top .logo {
+	position: absolute;
+	left: 200px;
+	top: 5px;
+	height: 97px;
+	width: 189px;
+	float: left;
+	background: #ccc;
+	background: url(../images/spr-v2.png) no-repeat 0px -32px;
+	z-index: 4px;
+}
+.top .nav {
+	height: 90px;
+	float: left;
+	margin-left: 350px;
+}
+.top .nav ul {
+	margin-left: 50px;
+}
+.top .nav ul li {
+	float: left;
+	margin-right: 30px;
+	width: 100px;
+	height: 90px;
+	text-align: center;
+}
+.top .nav ul li a {
+	font-size: 18px;
+	color: #fff;
+	padding-top: 30px;
+	display: block;
+	text-align: center;
+}
+.top .nav ul li a span {
+	font-size: 10px;
+	color: #838383;
+	text-align: center;
+}
+.btn {
+	width: 154px;
+	height: 36px;
+	color: #a98132;
+	border: 2px solid #a98132;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 36px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 400px;
+}
+.btn:hover {
+	background-color: #000;
+}
+/*-----------------------top结束---------------------------------*/
+
+
+/*-----------------------banner开始---------------------------------*/
+.banner {
+	height: 594px;
+	border-bottom: 10px solid #8c6c2d;
+	width: 100%;
+}
+.banner video {
+	width: 100%;
+}
+/*-----------------------banner结束---------------------------------*/
+
+/*-----------------------main开始---------------------------------*/
+.main {
+	height: 450px;
+	border: 0px;
+	background: url(../images/bg-content-top.jpg) no-repeat;
+}
+
+.main-page {
+	margin: 0 auto;
+	width: 1200px;
+}
+.main-page .left {
+	padding-right: 20px;
+	border-right: 1px #c8a740 solid;
+	margin-top: 20px
+}
+.main-page .left, .main-page .right {
+	float: left;
+}
+.main-page .nav-back {
+	height: 300px;
+}
+.main-page .nav {
+	position: relative;
+	width: 130px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #c8a740;
+	height: 400px;
+	overflow-y: scroll;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+.main-page .nav div {
+	height: 47px;
+	line-height: 47px;
+	margin-bottom: 8px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.main-page .nav div.on {
+	background: url(../images/bg.png) no-repeat;
+	color:#fff;
+}
+.main-page .right {
+	width: 990px;
+	height: 440px;
+	margin-left: 55px;
+}
+.main-page .content {
+	position: relative;
+	width: 987px;
+	height: 440px;
+	overflow: hidden;
+}
+.main-page .content .con-ggh {
+	width: 987px;
+	height: 800px;
+}
+
+.con-ggh .item-name {
+	padding: 20px 0;
+	height: 20px;
+	width: 150px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.a-intro {
+	margin-top: 20px
+}
+/**/
+
+/**/
+.a-intro p {
+	width: 100%;
+	height: 100%;
+	line-height: 24px;
+	overflow: hidden;
+	color: #000;
+	font-size: 14px
+}
+
+.zcinfo {
+	width: 660px;
+	height:400px;
+	border:1px solid #f00;
+	margin-top: 20px
+}
+.zcinfo2 {
+	width: 300px;
+	height:400px;
+	/*border:1px solid #f00;*/
+	margin-top: 20px
+}
+.zcinfo2 .video {
+	width:300px;
+}
+.zcinfo2 ul {
+
+}
+.zcinfo2 ul li {
+	float: left;
+	width: 95px;
+	height: 65px;
+	margin-left: 7px;
+	margin-top: 7px;
+	position: relative;
+}
+.zcinfo2 ul li .hot {
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	right: 3px;
+	top: 3px;
+	background: url(../images/city/spr-v2.png) no-repeat -107px -0px;
+}
+.zcinfo2 ul li .new {
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	right: 3px;
+	top: 3px;
+	background: url(../images/spr-v2.png) no-repeat -129px -0px;
+}
+.zcinfo2 ul li a {
+	display: block;
+	width: 85px;
+	height: 65px;
+	line-height: 65px;
+	background: #fff;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #555;
+}
+.zcinfo2 ul li a .xs {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url(../images/spr-v2.png) no-repeat -206px -6px;
+}
+.zcinfo2 ul li a .yz {
+	display: inline-block;
+	vertical-align: middle;
+	width: 23px;
+	height: 23px;
+	background: url(../images/spr-v2.png) no-repeat -563px -4px;
+}
+.zcinfo2 ul li a .zb {
+	display: inline-block;
+	vertical-align: middle;
+	width: 29px;
+	height: 20px;
+	background: url(../images/spr-v2.png) no-repeat -590px -6px;
+}
+.zcinfo2 ul li a .xk {
+	display: inline-block;
+	vertical-align: middle;
+	width: 23px;
+	height: 22px;
+	background: url(../images/spr-v2.png) no-repeat -383px -4px;
+}
+.zcinfo2 ul li a .xg {
+	display: inline-block;
+	vertical-align: middle;
+	width: 24px;
+	height: 22px;
+	background: url(../images/spr-v2.png) no-repeat -653px -5px;
+}
+.zcinfo2 ul li a .wj {
+	display: inline-block;
+	vertical-align: middle;
+	width: 24px;
+	height: 20px;
+	background: url(../images/spr-v2.png) no-repeat -653px -34px;
+}
+.zcinfo2 ul li a .lh {
+	display: inline-block;
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	background: url(../images/spr-v2.png) no-repeat -623px -3px;
+}
+.zcinfo2 ul li a .yx {
+	display: inline-block;
+	vertical-align: middle;
+	width: 26px;
+	height: 23px;
+	background: url(../images/spr-v2.png) no-repeat -261px -4px;
+}
+.zcinfo2 ul li a .lq {
+	display: inline-block;
+	vertical-align: middle;
+	width: 23px;
+	height: 26px;
+	background: url(../images/spr-v2.png) no-repeat -473px -2px;
+}
+.zcinfo2 ul li a .gf {
+	display: inline-block;
+	vertical-align: middle;
+	width: 28px;
+	height: 23px;
+	background: url(../images/spr-v2.png) no-repeat -501px -4px;
+}
+.zcinfo2 ul li a .lt {
+	display: inline-block;
+	vertical-align: middle;
+	width: 25px;
+	height: 22px;
+	background: url(../images/spr-v2.png) no-repeat -412px -4px;
+}
+.zcinfo2 ul li a .zx {
+	display: inline-block;
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	background: url(../images/spr-v2.png) no-repeat -443px -3px;
+}
+.zcinfo2 ul li a:hover {
+	background: #e5e5e5;
+}
+
+
+.zcinfo2 ul li:nth-child(3n+1) {
+    margin-left: 0px;
+}
+.ptpic-dl, .ptpic-dl img {
+	width: 354px;
+	height: 690px
+}
+.ptpic-dl {
+	margin-top: 110px
+}
+
+/*-----------------------main结束---------------------------------*/
+
+/*-----------------------hero开始---------------------------------*/
+.hero {
+	height: 1164px;
+	width: 100%;
+	background: url(../images/latestBg_Wallpaper2.jpg) no-repeat;
+}
+#imagegallery {
+	position: relative;
+}
+
+#imagegallery a {
+  /*margin: 0px 20px 20px 0px;*/
+  padding: 0px;
+  display: inline;
+}
+
+#imagegallery a img {
+  border: 0;
+}
+.img1 {
+	position: absolute;
+	top: 121px;
+	right: 451px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+}
+.img2 {
+	position: absolute;
+	top: 166px;
+	right: 337px;
+	height: 45px;
+	width: 45px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+}
+.img3 {
+	position: absolute;
+	top: 226px;
+	right: 236px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+}
+.img4 {
+	position: absolute;
+	top: 305px;
+	right: 150px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+}
+/*.hero2 {
+	height: 714px;
+	width: 100%;
+	background: url(../images/panorama-2017.jpg) no-repeat;
+}*/
+.main_img {
+	width: 100%;
+	height: 1164px;/*
+	margin-top: 200px;
+	margin-left: 160px;*/
+}
+#des {
+	position: absolute;
+	top: 200px;
+	left: 0px;
+}
+/*-----------------------hero结束---------------------------------*/
+
+/*-----------------------map开始---------------------------------*/
+.map {
+	height: 800px;
+	width: 100%;
+	border: 0px;
+	position: relative;
+}
+.bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.bg-box-1{
+			background: url('../images/city/1.jpg') no-repeat center/cover;
+		}
+		.bg-box-2{
+			background: url('../images/city/2.jpg') no-repeat center/cover;
+		}
+		.bg-box-3{
+			background: url('../images/city/3.jpg') no-repeat center/cover;
+		}
+		.bg-box-4{
+			background: url('../images/city/4.jpg') no-repeat center/cover;
+		}
+		.bg-box-4{
+			background: url('../images/city/6.jpg') no-repeat center/cover;
+		}
+		#wrap{
+			position: absolute;
+			overflow: hidden;
+			top:0; 
+			left:0; 
+			right:0; 
+			bottom:0;
+			margin:auto;
+			width: 1000px;
+			height: 400px;
+		}
+		#wrap > ul{
+			width: 120%;
+			list-style: none;
+		}
+		#wrap > ul > li{
+			float: left;
+			width: 100px;
+			height: 400px;
+			cursor: pointer;
+		}
+		#wrap > ul > li:nth-child(1){
+			background: url('../images/city/1.jpg') no-repeat center/cover;
+		}
+		#wrap > ul > li:nth-child(2){
+			background: url('../images/city/2.jpg') no-repeat center/cover;
+		}
+		#wrap > ul > li:nth-child(3){
+			background: url('../images/city/3.jpg') no-repeat center/cover;
+		}
+		#wrap > ul > li:nth-child(4){
+			background: url('../images/city/4.jpg') no-repeat center/cover;
+			width: 700px;
+		}
+		#wrap > ul > li > .text{
+			width: 100px;
+			height: 100%;
+			background: #000;
+			opacity: .5;
+		}
+		#wrap > ul > li > .text p{
+			padding: 20px 40px;
+			font-family: 'Microsoft yahei';
+			color: #fff;
+		}
+/*-----------------------map结束---------------------------------*/
